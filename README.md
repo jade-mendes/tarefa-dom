@@ -1,10 +1,6 @@
-# 🤓 CSS 101
-Minha primeira tentativa de utilizar CSS para estilizar uma página web.
+# 🤓 Tarefa DOM
+Colocando em prática os conhecimentos adquiridos no módulo de DOM do treinamento da IN Júnior 2025-1.
 
 ## Objetivo  
-Fazer uma página responsiva que reproduza o layout estabelecido no Figma com maior fidelidade possível.
+Implementar a manipulação do DOM para que, ao preencher os campos de nome completo e feedback, um card de feedback seja gerado dinamicamente na página
 
-## Tecnologias Utilizadas  
-- **HTML** → Estrutura da página 
-- **CSS** → Estilização e animações `:hover` 
-- **Figma** → Modelo de layout a ser seguido
