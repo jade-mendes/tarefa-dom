@@ -237,6 +237,17 @@ footer{
     background-color: var(--accent-color);
 }
 
+.feedback-card{
+    background-color: var(--accent-color);
+    border-radius: 5%;
+    padding: 3%;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2%;
+}
+
 /* Configuração para tablets */
 @media (max-width: 1024px) {
     .profile-pic {
