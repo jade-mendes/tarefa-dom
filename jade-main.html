@@ -60,10 +60,13 @@
         <section class="feedback">
             <h4> Feedback </h4>
             <form>
-                <textarea placeholder="Dê um feedback para esse desenvolvedor!" rows="1" cols="1" required></textarea>
-                <input type="text" placeholder="Digite seu nome aqui" required>
-                <button type="submit"> Enviar </button>
+                <textarea id="commenter-feedback" placeholder="Dê um feedback para esse desenvolvedor!" rows="1" cols="1" required></textarea>
+                <input id="commenter-name" type="text" placeholder="Digite seu nome aqui" required>
+                <button id="send-feedback-button" type="submit" onsubmit="return sendFeedback()"> Enviar </button>
             </form>
+        </section>
+        <section class="feedback-list">
+
         </section>
     </main>
 
@@ -73,6 +76,6 @@
         </a>
         <a id="contact-link" href="#"> Entrar em contato </a>
     </footer>
-    
+    <script src="feedback-script.js"></script>
 </body>
 </html>
